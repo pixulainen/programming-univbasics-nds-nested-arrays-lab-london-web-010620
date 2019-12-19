@@ -28,7 +28,7 @@ def sorted_matrix
     array = [["Grapefruit", "Pineapple", "Oranges","Watermelon","Eggplant"],["Strawberries","Potatoes","Grapes","Avocadoes","Asparagus"]]
    conventional=array[0].sort
    organic=array[1].sort
-   conventional,organic
+   return conventional,organic
 
   # Using Array literal syntax only, build another nested array that 
   # uses the arrays of conventional and organic produce as before.
